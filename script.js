@@ -75,8 +75,7 @@ window.onload = function() {
             union.style.border = '1px solid transparent'
             districtValue.textContent = district.value;
             upzillaValue.textContent = upzilla.value;
-            unionValue.textContent = union.value;
-            district.length = 1;
+            unionValue.textContent = union.value;            
             upzilla.length = 1;
             union.length = 1;
 
