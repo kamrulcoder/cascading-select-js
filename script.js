@@ -6,9 +6,7 @@ var MymensinghDivsion = {
     Netrokna: {},
     Jamalpur: {},
     Sherpur: {}
-
 }
-
 
 window.onload = function() {
 
@@ -78,25 +76,14 @@ window.onload = function() {
             districtValue.textContent = district.value;
             upzillaValue.textContent = upzilla.value;
             unionValue.textContent = union.value;
+            district.length = 1;
+            upzilla.length = 1;
+            union.length = 1;
 
             message("You are successfully fetch data ")
-
-
         }
 
-
-
-
-
-
-
-
-
     })
-
-
-
-
 
 
 }
